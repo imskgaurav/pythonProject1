@@ -5,4 +5,4 @@ print(int(x))
 y=333
 print(str(y))
 x = int(input("PLS ENTER NUMERIC VALUE"))
-print("f"x)
+print("f",x)
