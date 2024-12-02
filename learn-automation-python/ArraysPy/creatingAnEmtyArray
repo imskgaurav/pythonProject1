@@ -1,0 +1,30 @@
+# creating empty array of integer
+import array as arr
+numbers = arr.array('i')
+print(numbers)
+#Iterating Empty Array #
+for x in  numbers:
+    print("PRINT ARRAY")
+    print(x)
+
+#merging two arrray#
+even = arr.array('i', [2,4,6])
+odd =arr.array('i',[1,3,5])
+#Merge two array
+numbers = even+odd
+print(numbers)    
+for x in  numbers:
+    print("PRINT ARRAY")
+    print(x)
+
+#Deleting an Array 
+nums = arr.array('f',[12.5, 5.5, 89.00,33.333, 45.45])    
+print(nums)
+#remove the value : 
+nums.remove(5.5)
+print(nums)
+del nums[0]
+print(nums)
+del nums
+print(nums)
+
